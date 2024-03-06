@@ -1,4 +1,5 @@
 #include<vector>
+#include<iostream>
 using namespace std;
 class Solution {
 public:
@@ -6,3 +7,8 @@ public:
         
     }
 };
+
+int main(){
+    std::cout<<"lalalal"<<std::endl;
+    return 1;
+}

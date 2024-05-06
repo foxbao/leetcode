@@ -58,7 +58,6 @@ class Solution(object):
         que=deque()
         que.append((i,j))
         self.visited[i][j]=True
-        
         while que:
             x,y=que.popleft()
             for dir in self.dirs:
@@ -75,32 +74,35 @@ class Solution(object):
                 que.append((next_i,next_j))
                 self.visited[next_i][next_j]=True
         
-    #     #DFS  
     #     self.dirs=[[-1,0],[1,0],[0,-1],[0,1]]
     #     self.height=len(grid)
     #     self.width=len(grid[0])
     #     self.visited=[[False]*self.width for _ in range(self.height)]
     #     self.result=0
     #     self.grid=grid
-        
     #     for i in range(self.height):
     #         for j in range(self.width):
     #             if not self.visited[i][j] and self.grid[i][j]=='1':
-    #                 self.visited[i][j]=True
     #                 self.result+=1
-    #                 self.DFS(i,j)
+    #                 self.dfs(i,j)
     #     return self.result
-        
-    # def DFS(self,x,y):
+
+    # def dfs(self,i,j):
+    #     if self.visited[i][j]:
+    #         return
+    #     self.visited[i][j]=True
     #     for dir in self.dirs:
-    #         nextx=x+dir[0]
-    #         nexty=y+dir[1]
-    #         if nextx<0 or nextx>=self.height or nexty<0 or nexty >=self.width:
+    #         next_i=i+dir[0]
+    #         next_j=j+dir[1]
+    #         if next_i < 0 or next_i >= len(self.grid):
+    #             continue 
+    #         if next_j < 0 or next_j >= len(self.grid[0]):
     #             continue
-                
-    #         if not self.visited[nextx][nexty] and self.grid[nextx][nexty]=="1":
-    #             self.visited[nextx][nexty]=True
-    #             self.DFS(nextx,nexty)
+    #         if self.visited[next_i][next_j]:
+    #             continue
+    #         if self.grid[next_i][next_j] == '0':
+    #             continue
+    #         self.dfs(next_i,next_j)
                 
         
         

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/remove.dir/数据结构篇/数组/27.移除元素.cpp.o -o remove 

@@ -50,24 +50,28 @@ class Solution(object):
             for j in range(self.width):
                 if not self.visited[i][j] and self.grid[i][j]==1:
                     self.count=1
-                    self.visited[i][j]=True
                     self.DFS(i,j)
                     self.result=max(self.result,self.count)
         return self.result
 
     def DFS(self,x,y):
+        if self.visited[x][y] or self.grid[x][y]==0:
+            return
+        self.visited[x][y]=True
+        self.count+=1
         for dir in self.dirs:
             nextx=x+dir[0]
             nexty=y+dir[1]
-            if nextx<0 or nextx>=self.height or nexty<0 or nexty >=self.width:
+            if nextx<0 or nextx>=self.height:
                 continue
-                
-            if not self.visited[nextx][nexty] and self.grid[nextx][nexty]==1:
-                self.visited[nextx][nexty]=True
-                self.count+=1
-                self.DFS(nextx,nexty)
+            if nexty<0 or nexty>=self.width:
+                continue
+            if self.visited[nextx][nexty] or self.grid[nextx][nexty]==0:
+                continue
+            self.DFS(nextx,nexty)
         
 
 solution=Solution()
-grid = [[0,0,1,0,0,0,0,1,0,0,0,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,1,1,0,1,0,0,0,0,0,0,0,0],[0,1,0,0,1,1,0,0,1,0,1,0,0],[0,1,0,0,1,1,0,0,1,1,1,0,0],[0,0,0,0,0,0,0,0,0,0,1,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,0,0,0,0,0,0,1,1,0,0,0,0]]
+grid = [[0,0,1,0,0,0,0,1,0,0,0,0,0],[0,0,1,0,0,0,0,1,1,1,0,0,0],[0,1,1,0,1,0,0,0,0,0,0,0,0],[0,1,0,0,1,1,0,0,1,0,1,0,0],[0,1,0,0,1,1,0,0,1,1,1,0,0],[0,0,0,0,0,0,0,0,0,0,1,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,0,0,0,0,0,0,1,1,0,0,0,0]]
+# print(grid)
 print(solution.maxAreaOfIsland(grid))

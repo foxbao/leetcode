@@ -27,7 +27,31 @@ class Solution(object):
         :rtype: bool
         """
         totalSum=sum(nums)
+        if totalSum%2!=0:
+            return False
+        target_sum=totalSum//2
         
+        
+        dp=[0]*(target_sum+1)
+        for i in range(len(nums)):
+            for j in range(target_sum,nums[i]-1,-1):
+                dp[j]=max(dp[j],dp[j-nums[i]]+nums[i])
+                
+        if(dp[target_sum]==target_sum):
+            return True
+        return False
+        # dp=[[False]*(target_sum+1) for _ in range(len(nums)+1)]
+        
+        # for i in range(len(nums)+1):
+        #     dp[i][0]=True
+        
+        # for i in range(1,len(nums)+1):
+        #     for j in range(1,target_sum+1):
+        #         if j < nums[i-1]:
+        #             dp[i][j]=dp[i-1][j]
+        #         else:
+        #             dp[i][j]=dp[i-1][j] or dp[i-1][j-nums[i-1]]
+        # return dp[len(nums)][target_sum]
         
         
 solution=Solution()

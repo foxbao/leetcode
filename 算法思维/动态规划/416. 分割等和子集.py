@@ -27,7 +27,11 @@ class Solution(object):
         :rtype: bool
         """
         totalSum=sum(nums)
-        
+        # target=totalSum/2
+
+        dp=[0]*10001
+
+
         
         
 solution=Solution()

@@ -38,18 +38,29 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         self.res=[]
-        self.backtracking(target_sum=n,size=k,start_idx=1,path=[])
+        self.backtracking(n,k,1,[])
         return self.res
-        
+    
     def backtracking(self,target_sum,size,start_idx,path):
         if len(path)==size and sum(path)==target_sum:
             self.res.append(path[:])
-            aaa=2
             
         for i in range(start_idx,9+1):
             path.append(i)
             self.backtracking(target_sum,size,i+1,path)
             path.pop()
+    #     self.res=[]
+    #     self.backtracking(target_sum=n,size=k,start_idx=1,path=[])
+    #     return self.res
+        
+    # def backtracking(self,target_sum,size,start_idx,path):
+    #     if len(path)==size and sum(path)==target_sum:
+    #         self.res.append(path[:])
+            
+    #     for i in range(start_idx,9+1):
+    #         path.append(i)
+    #         self.backtracking(target_sum,size,i+1,path)
+    #         path.pop()
         
 n =6
 k = 3

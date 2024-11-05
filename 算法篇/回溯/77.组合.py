@@ -41,13 +41,27 @@ class Solution(object):
             if len(path)==k:
                 res.append(path[:])
                 return
+            
             for i in range(start_idx,n+1):
                 path.append(i)
                 backtracking(n,k,i+1,path)
                 path.pop()
-        
+                
         backtracking(n,k,1,[])
         return res
+        # res=[]
+        
+        # def backtracking(n,k,start_idx,path):
+        #     if len(path)==k:
+        #         res.append(path[:])
+        #         return
+        #     for i in range(start_idx,n+1):
+        #         path.append(i)
+        #         backtracking(n,k,i+1,path)
+        #         path.pop()
+        
+        # backtracking(n,k,1,[])
+        # return res
         
         
         

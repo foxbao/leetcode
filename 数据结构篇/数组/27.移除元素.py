@@ -50,13 +50,15 @@ class Solution(object):
         :rtype: int
         """
         
-        slowIdx=0
-        for fastIdx in range(len(nums)):
-            if not nums[fastIdx] == val:
-                nums[slowIdx]=nums[fastIdx]
-                slowIdx+=1
+        fast=0
+        slow=0
+        while fast<len(nums):
+            if nums[fast]!=val:
+                nums[slow]=nums[fast]
+                slow+=1
+            fast+=1
         
-        return slowIdx
+
         # #暴力解法
         # size=len(nums)
         

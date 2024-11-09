@@ -44,7 +44,7 @@ class Solution(object):
         self.width=len(grid[0])
         self.visited=[[False]*self.width for _ in range(self.height)]
         self.result=0
-        self.count=0
+        self.count=0 #size of the current visiting island
         self.grid=grid
         for i in range(self.height):
             for j in range(self.width):

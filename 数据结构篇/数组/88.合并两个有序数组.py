@@ -15,3 +15,11 @@ class Solution(object):
                 nums1[m + n - 1] = nums2[n - 1]
                 n -= 1
         nums1[:n] = nums2[:n]
+        
+        
+solution=Solution()
+nums1=[]
+m=[] 
+nums2=[]
+n=2
+print(solution.merge(nums1, m, nums2, n))

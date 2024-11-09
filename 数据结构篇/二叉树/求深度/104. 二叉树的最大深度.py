@@ -38,12 +38,12 @@ class Solution(object):
         :type root: TreeNode
         :rtype: int
         """
+        #后序遍历
+        if not root:
+            return 0
         
-        # #后序遍历
-        # if not root:
-        #     return 0
+        left=self.maxDepth(root.left)
+        right=self.maxDepth(root.right)
         
-        # left=self.maxDepth(root.left)
-        # right=self.maxDepth(root.right)
-        
-        # return max(left,right)+1
+        return max(left,right)+1
+    

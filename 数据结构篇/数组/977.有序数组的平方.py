@@ -32,9 +32,11 @@ class Solution(object):
         :rtype: List[int]
         """
         
-        size=len(nums)
         
-        result=[0 for i in range(size)]
+        size=len(nums)
+        result=[0]*size
+        
+        aaaa=1
         i=0
         j=size-1
         k=size-1
@@ -49,6 +51,24 @@ class Solution(object):
                 i+=1
                 k-=1
         return result
+        
+        # size=len(nums)
+        
+        # result=[0 for i in range(size)]
+        # i=0
+        # j=size-1
+        # k=size-1
+        
+        # while i <=j:
+        #     if nums[i]*nums[i]<nums[j]*nums[j]:
+        #         result[k]=nums[j]*nums[j]
+        #         j-=1
+        #         k-=1
+        #     else:
+        #         result[k]=nums[i]*nums[i]
+        #         i+=1
+        #         k-=1
+        # return result
         
 solution=Solution()
 nums = [-7,-3,2,3,11]

@@ -24,5 +24,5 @@ class Solution(object):
         
 solution=Solution()
 grid=[["1","1"],["1","1"]]
-aaa=solution.numIslands(grid) 
-print(aaa)           
+res=solution.numIslands(grid) 
+print(res)           

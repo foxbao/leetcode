@@ -1,7 +1,5 @@
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
-        
-        
         self.res=0
         self.isisland=0
         

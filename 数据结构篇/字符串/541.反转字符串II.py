@@ -28,6 +28,11 @@ class Solution(object):
         :rtype: str
         """
         
+        res=list(s)
+        for cur in range(0,len(s),2*k):
+            res[cur:cur+k]=self.reverse_substring(res[cur:cur+k])
+        return 
+        
         res = list(s)
 
         for cur in range(0, len(s), 2 * k):

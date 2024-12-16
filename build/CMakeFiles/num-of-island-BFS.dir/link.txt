@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/num-of-island-BFS.dir/图论/200.岛屿数量_BFS.cpp.o -o num-of-island-BFS 

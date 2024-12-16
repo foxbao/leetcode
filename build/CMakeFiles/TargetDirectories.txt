@@ -1,0 +1,17 @@
+/home/baojiali/Projects/leetcode/build/CMakeFiles/remove.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/binary.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/max-area-of-island.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/surrounded_region.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/num-of-island.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/num-of-island-BFS.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/max-area-of-island-DFS.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/preorder.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/isSymmetric.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/invertTree.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/reverseList.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/removeElements.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/swapPairs.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/quicksort.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/bubblesort.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/edit_cache.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/rebuild_cache.dir

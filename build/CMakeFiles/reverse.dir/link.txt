@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/reverse.dir/数据结构篇/二叉树/翻转/226.翻转二叉树.cpp.o -o reverse 

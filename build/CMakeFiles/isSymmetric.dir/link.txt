@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/isSymmetric.dir/数据结构篇/二叉树/对称/101.对称二叉树.cpp.o -o isSymmetric 

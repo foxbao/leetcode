@@ -1,0 +1,77 @@
+[
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/remove.dir/数据结构篇/数组/27.移除元素.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/数组/27.移除元素.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/数组/27.移除元素.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/binary.dir/算法篇/二分查找/704.binary.cpp.o -c /home/baojiali/Projects/leetcode/算法篇/二分查找/704.binary.cpp",
+  "file": "/home/baojiali/Projects/leetcode/算法篇/二分查找/704.binary.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/max-area-of-island.dir/算法篇/广度优先搜索BFS/695.max-area-of-island.cpp.o -c /home/baojiali/Projects/leetcode/算法篇/广度优先搜索BFS/695.max-area-of-island.cpp",
+  "file": "/home/baojiali/Projects/leetcode/算法篇/广度优先搜索BFS/695.max-area-of-island.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/surrounded_region.dir/算法篇/广度优先搜索BFS/695.max-area-of-island.cpp.o -c /home/baojiali/Projects/leetcode/算法篇/广度优先搜索BFS/695.max-area-of-island.cpp",
+  "file": "/home/baojiali/Projects/leetcode/算法篇/广度优先搜索BFS/695.max-area-of-island.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/num-of-island.dir/图论/200.岛屿数量.cpp.o -c /home/baojiali/Projects/leetcode/图论/200.岛屿数量.cpp",
+  "file": "/home/baojiali/Projects/leetcode/图论/200.岛屿数量.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/num-of-island-BFS.dir/图论/200.岛屿数量_BFS.cpp.o -c /home/baojiali/Projects/leetcode/图论/200.岛屿数量_BFS.cpp",
+  "file": "/home/baojiali/Projects/leetcode/图论/200.岛屿数量_BFS.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/max-area-of-island-DFS.dir/图论/695.岛屿的最大面积_DFS.cpp.o -c /home/baojiali/Projects/leetcode/图论/695.岛屿的最大面积_DFS.cpp",
+  "file": "/home/baojiali/Projects/leetcode/图论/695.岛屿的最大面积_DFS.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/preorder.dir/数据结构篇/二叉树/遍历/前序遍历/144.二叉树的前序遍历.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/二叉树/遍历/前序遍历/144.二叉树的前序遍历.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/二叉树/遍历/前序遍历/144.二叉树的前序遍历.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/isSymmetric.dir/数据结构篇/二叉树/对称/101.对称二叉树.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/二叉树/对称/101.对称二叉树.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/二叉树/对称/101.对称二叉树.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/invertTree.dir/数据结构篇/二叉树/翻转/226.翻转二叉树.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/二叉树/翻转/226.翻转二叉树.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/二叉树/翻转/226.翻转二叉树.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/reverseList.dir/数据结构篇/链表/206.反转链表.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/链表/206.反转链表.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/链表/206.反转链表.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/removeElements.dir/数据结构篇/链表/203.移除链表元素.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/链表/203.移除链表元素.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/链表/203.移除链表元素.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/swapPairs.dir/数据结构篇/链表/24.两两交换链表中的节点.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/链表/24.两两交换链表中的节点.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/链表/24.两两交换链表中的节点.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/quicksort.dir/sort/quicksort.cpp.o -c /home/baojiali/Projects/leetcode/sort/quicksort.cpp",
+  "file": "/home/baojiali/Projects/leetcode/sort/quicksort.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/bubblesort.dir/sort/bubbleSort.cpp.o -c /home/baojiali/Projects/leetcode/sort/bubbleSort.cpp",
+  "file": "/home/baojiali/Projects/leetcode/sort/bubbleSort.cpp"
+}
+]

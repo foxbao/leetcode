@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/isAnagram.dir/数据结构篇/哈希表/242.有效的字母异位词.cpp.o -o isAnagram 

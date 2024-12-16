@@ -30,6 +30,10 @@ add_executable(climbStairs 算法思维/动态规划/70.爬楼梯.cpp)
 add_executable(minCostClimbingStairs 算法思维/动态规划/746.使用最小花费爬楼梯.cpp)
 add_executable(uniquePaths 算法思维/动态规划/62.不同路径.cpp)
 add_executable(combine 算法篇/回溯/77.组合.cpp)
+add_executable(letterCombinations 算法篇/回溯/17.电话号码的字母组合.cpp)
+add_executable(twoSum 数据结构篇/哈希表/1.两数之和.cpp)
+add_executable(isAnagram 数据结构篇/哈希表/242.有效的字母异位词.cpp)
+add_executable(intersection 数据结构篇/哈希表/349.两个数组的交集.cpp)
 
 
 

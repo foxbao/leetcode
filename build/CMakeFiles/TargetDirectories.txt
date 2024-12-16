@@ -25,5 +25,9 @@
 /home/baojiali/Projects/leetcode/build/CMakeFiles/minCostClimbingStairs.dir
 /home/baojiali/Projects/leetcode/build/CMakeFiles/uniquePaths.dir
 /home/baojiali/Projects/leetcode/build/CMakeFiles/combine.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/letterCombinations.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/twoSum.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/isAnagram.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/intersection.dir
 /home/baojiali/Projects/leetcode/build/CMakeFiles/edit_cache.dir
 /home/baojiali/Projects/leetcode/build/CMakeFiles/rebuild_cache.dir

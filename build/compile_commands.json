@@ -133,5 +133,25 @@
   "directory": "/home/baojiali/Projects/leetcode/build",
   "command": "/usr/bin/c++   -g -o CMakeFiles/combine.dir/算法篇/回溯/77.组合.cpp.o -c /home/baojiali/Projects/leetcode/算法篇/回溯/77.组合.cpp",
   "file": "/home/baojiali/Projects/leetcode/算法篇/回溯/77.组合.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/letterCombinations.dir/算法篇/回溯/17.电话号码的字母组合.cpp.o -c /home/baojiali/Projects/leetcode/算法篇/回溯/17.电话号码的字母组合.cpp",
+  "file": "/home/baojiali/Projects/leetcode/算法篇/回溯/17.电话号码的字母组合.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/twoSum.dir/数据结构篇/哈希表/1.两数之和.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/哈希表/1.两数之和.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/哈希表/1.两数之和.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/isAnagram.dir/数据结构篇/哈希表/242.有效的字母异位词.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/哈希表/242.有效的字母异位词.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/哈希表/242.有效的字母异位词.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/intersection.dir/数据结构篇/哈希表/349.两个数组的交集.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/哈希表/349.两个数组的交集.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/哈希表/349.两个数组的交集.cpp"
 }
 ]

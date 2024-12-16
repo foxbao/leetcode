@@ -467,6 +467,58 @@ combine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/combine.dir/build.make CMakeFiles/combine.dir/build
 .PHONY : combine/fast
 
+#=============================================================================
+# Target rules for targets named letterCombinations
+
+# Build rule for target.
+letterCombinations: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 letterCombinations
+.PHONY : letterCombinations
+
+# fast build rule for target.
+letterCombinations/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/letterCombinations.dir/build.make CMakeFiles/letterCombinations.dir/build
+.PHONY : letterCombinations/fast
+
+#=============================================================================
+# Target rules for targets named twoSum
+
+# Build rule for target.
+twoSum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 twoSum
+.PHONY : twoSum
+
+# fast build rule for target.
+twoSum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twoSum.dir/build.make CMakeFiles/twoSum.dir/build
+.PHONY : twoSum/fast
+
+#=============================================================================
+# Target rules for targets named isAnagram
+
+# Build rule for target.
+isAnagram: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 isAnagram
+.PHONY : isAnagram
+
+# fast build rule for target.
+isAnagram/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/isAnagram.dir/build.make CMakeFiles/isAnagram.dir/build
+.PHONY : isAnagram/fast
+
+#=============================================================================
+# Target rules for targets named intersection
+
+# Build rule for target.
+intersection: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 intersection
+.PHONY : intersection
+
+# fast build rule for target.
+intersection/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/intersection.dir/build.make CMakeFiles/intersection.dir/build
+.PHONY : intersection/fast
+
 sort/bubbleSort.o: sort/bubbleSort.cpp.o
 .PHONY : sort/bubbleSort.o
 
@@ -851,6 +903,78 @@ sort/quicksort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/levelOrder_minDepth.dir/build.make CMakeFiles/levelOrder_minDepth.dir/数据结构篇/二叉树/遍历/层序遍历/104.二叉树的最小深度.cpp.s
 .PHONY : 数据结构篇/二叉树/遍历/层序遍历/104.二叉树的最小深度.cpp.s
 
+数据结构篇/哈希表/1.两数之和.o: 数据结构篇/哈希表/1.两数之和.cpp.o
+.PHONY : 数据结构篇/哈希表/1.两数之和.o
+
+# target to build an object file
+数据结构篇/哈希表/1.两数之和.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twoSum.dir/build.make CMakeFiles/twoSum.dir/数据结构篇/哈希表/1.两数之和.cpp.o
+.PHONY : 数据结构篇/哈希表/1.两数之和.cpp.o
+
+数据结构篇/哈希表/1.两数之和.i: 数据结构篇/哈希表/1.两数之和.cpp.i
+.PHONY : 数据结构篇/哈希表/1.两数之和.i
+
+# target to preprocess a source file
+数据结构篇/哈希表/1.两数之和.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twoSum.dir/build.make CMakeFiles/twoSum.dir/数据结构篇/哈希表/1.两数之和.cpp.i
+.PHONY : 数据结构篇/哈希表/1.两数之和.cpp.i
+
+数据结构篇/哈希表/1.两数之和.s: 数据结构篇/哈希表/1.两数之和.cpp.s
+.PHONY : 数据结构篇/哈希表/1.两数之和.s
+
+# target to generate assembly for a file
+数据结构篇/哈希表/1.两数之和.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twoSum.dir/build.make CMakeFiles/twoSum.dir/数据结构篇/哈希表/1.两数之和.cpp.s
+.PHONY : 数据结构篇/哈希表/1.两数之和.cpp.s
+
+数据结构篇/哈希表/242.有效的字母异位词.o: 数据结构篇/哈希表/242.有效的字母异位词.cpp.o
+.PHONY : 数据结构篇/哈希表/242.有效的字母异位词.o
+
+# target to build an object file
+数据结构篇/哈希表/242.有效的字母异位词.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/isAnagram.dir/build.make CMakeFiles/isAnagram.dir/数据结构篇/哈希表/242.有效的字母异位词.cpp.o
+.PHONY : 数据结构篇/哈希表/242.有效的字母异位词.cpp.o
+
+数据结构篇/哈希表/242.有效的字母异位词.i: 数据结构篇/哈希表/242.有效的字母异位词.cpp.i
+.PHONY : 数据结构篇/哈希表/242.有效的字母异位词.i
+
+# target to preprocess a source file
+数据结构篇/哈希表/242.有效的字母异位词.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/isAnagram.dir/build.make CMakeFiles/isAnagram.dir/数据结构篇/哈希表/242.有效的字母异位词.cpp.i
+.PHONY : 数据结构篇/哈希表/242.有效的字母异位词.cpp.i
+
+数据结构篇/哈希表/242.有效的字母异位词.s: 数据结构篇/哈希表/242.有效的字母异位词.cpp.s
+.PHONY : 数据结构篇/哈希表/242.有效的字母异位词.s
+
+# target to generate assembly for a file
+数据结构篇/哈希表/242.有效的字母异位词.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/isAnagram.dir/build.make CMakeFiles/isAnagram.dir/数据结构篇/哈希表/242.有效的字母异位词.cpp.s
+.PHONY : 数据结构篇/哈希表/242.有效的字母异位词.cpp.s
+
+数据结构篇/哈希表/349.两个数组的交集.o: 数据结构篇/哈希表/349.两个数组的交集.cpp.o
+.PHONY : 数据结构篇/哈希表/349.两个数组的交集.o
+
+# target to build an object file
+数据结构篇/哈希表/349.两个数组的交集.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/intersection.dir/build.make CMakeFiles/intersection.dir/数据结构篇/哈希表/349.两个数组的交集.cpp.o
+.PHONY : 数据结构篇/哈希表/349.两个数组的交集.cpp.o
+
+数据结构篇/哈希表/349.两个数组的交集.i: 数据结构篇/哈希表/349.两个数组的交集.cpp.i
+.PHONY : 数据结构篇/哈希表/349.两个数组的交集.i
+
+# target to preprocess a source file
+数据结构篇/哈希表/349.两个数组的交集.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/intersection.dir/build.make CMakeFiles/intersection.dir/数据结构篇/哈希表/349.两个数组的交集.cpp.i
+.PHONY : 数据结构篇/哈希表/349.两个数组的交集.cpp.i
+
+数据结构篇/哈希表/349.两个数组的交集.s: 数据结构篇/哈希表/349.两个数组的交集.cpp.s
+.PHONY : 数据结构篇/哈希表/349.两个数组的交集.s
+
+# target to generate assembly for a file
+数据结构篇/哈希表/349.两个数组的交集.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/intersection.dir/build.make CMakeFiles/intersection.dir/数据结构篇/哈希表/349.两个数组的交集.cpp.s
+.PHONY : 数据结构篇/哈希表/349.两个数组的交集.cpp.s
+
 数据结构篇/数组/27.移除元素.o: 数据结构篇/数组/27.移除元素.cpp.o
 .PHONY : 数据结构篇/数组/27.移除元素.o
 
@@ -1067,6 +1191,30 @@ sort/quicksort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/算法篇/二分查找/704.binary.cpp.s
 .PHONY : 算法篇/二分查找/704.binary.cpp.s
 
+算法篇/回溯/17.电话号码的字母组合.o: 算法篇/回溯/17.电话号码的字母组合.cpp.o
+.PHONY : 算法篇/回溯/17.电话号码的字母组合.o
+
+# target to build an object file
+算法篇/回溯/17.电话号码的字母组合.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/letterCombinations.dir/build.make CMakeFiles/letterCombinations.dir/算法篇/回溯/17.电话号码的字母组合.cpp.o
+.PHONY : 算法篇/回溯/17.电话号码的字母组合.cpp.o
+
+算法篇/回溯/17.电话号码的字母组合.i: 算法篇/回溯/17.电话号码的字母组合.cpp.i
+.PHONY : 算法篇/回溯/17.电话号码的字母组合.i
+
+# target to preprocess a source file
+算法篇/回溯/17.电话号码的字母组合.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/letterCombinations.dir/build.make CMakeFiles/letterCombinations.dir/算法篇/回溯/17.电话号码的字母组合.cpp.i
+.PHONY : 算法篇/回溯/17.电话号码的字母组合.cpp.i
+
+算法篇/回溯/17.电话号码的字母组合.s: 算法篇/回溯/17.电话号码的字母组合.cpp.s
+.PHONY : 算法篇/回溯/17.电话号码的字母组合.s
+
+# target to generate assembly for a file
+算法篇/回溯/17.电话号码的字母组合.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/letterCombinations.dir/build.make CMakeFiles/letterCombinations.dir/算法篇/回溯/17.电话号码的字母组合.cpp.s
+.PHONY : 算法篇/回溯/17.电话号码的字母组合.cpp.s
+
 算法篇/回溯/77.组合.o: 算法篇/回溯/77.组合.cpp.o
 .PHONY : 算法篇/回溯/77.组合.o
 
@@ -1129,8 +1277,11 @@ help:
 	@echo "... combine"
 	@echo "... fib"
 	@echo "... hasPathSum"
+	@echo "... intersection"
 	@echo "... invertTree"
+	@echo "... isAnagram"
 	@echo "... isSymmetric"
+	@echo "... letterCombinations"
 	@echo "... levelOrder"
 	@echo "... levelOrder_maxdepth"
 	@echo "... levelOrder_minDepth"
@@ -1149,6 +1300,7 @@ help:
 	@echo "... reverseList"
 	@echo "... surrounded_region"
 	@echo "... swapPairs"
+	@echo "... twoSum"
 	@echo "... uniquePaths"
 	@echo "... sort/bubbleSort.o"
 	@echo "... sort/bubbleSort.i"
@@ -1198,6 +1350,15 @@ help:
 	@echo "... 数据结构篇/二叉树/遍历/层序遍历/104.二叉树的最小深度.o"
 	@echo "... 数据结构篇/二叉树/遍历/层序遍历/104.二叉树的最小深度.i"
 	@echo "... 数据结构篇/二叉树/遍历/层序遍历/104.二叉树的最小深度.s"
+	@echo "... 数据结构篇/哈希表/1.两数之和.o"
+	@echo "... 数据结构篇/哈希表/1.两数之和.i"
+	@echo "... 数据结构篇/哈希表/1.两数之和.s"
+	@echo "... 数据结构篇/哈希表/242.有效的字母异位词.o"
+	@echo "... 数据结构篇/哈希表/242.有效的字母异位词.i"
+	@echo "... 数据结构篇/哈希表/242.有效的字母异位词.s"
+	@echo "... 数据结构篇/哈希表/349.两个数组的交集.o"
+	@echo "... 数据结构篇/哈希表/349.两个数组的交集.i"
+	@echo "... 数据结构篇/哈希表/349.两个数组的交集.s"
 	@echo "... 数据结构篇/数组/27.移除元素.o"
 	@echo "... 数据结构篇/数组/27.移除元素.i"
 	@echo "... 数据结构篇/数组/27.移除元素.s"
@@ -1225,6 +1386,9 @@ help:
 	@echo "... 算法篇/二分查找/704.binary.o"
 	@echo "... 算法篇/二分查找/704.binary.i"
 	@echo "... 算法篇/二分查找/704.binary.s"
+	@echo "... 算法篇/回溯/17.电话号码的字母组合.o"
+	@echo "... 算法篇/回溯/17.电话号码的字母组合.i"
+	@echo "... 算法篇/回溯/17.电话号码的字母组合.s"
 	@echo "... 算法篇/回溯/77.组合.o"
 	@echo "... 算法篇/回溯/77.组合.i"
 	@echo "... 算法篇/回溯/77.组合.s"

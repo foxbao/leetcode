@@ -41,7 +41,11 @@
 						23,
 						24,
 						25,
-						26
+						26,
+						27,
+						28,
+						29,
+						30
 					]
 				}
 			],
@@ -82,7 +86,11 @@
 						23,
 						24,
 						25,
-						26
+						26,
+						27,
+						28,
+						29,
+						30
 					]
 				}
 			],
@@ -132,6 +140,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "intersection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intersection-Debug-f1fd84ad9da6f5efaab0.json",
+					"name" : "intersection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "invertTree::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-invertTree-Debug-1b9da51e0ed3b8206fa5.json",
 					"name" : "invertTree",
@@ -139,9 +154,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "isAnagram::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isAnagram-Debug-612ffb41cf513cf1d4fb.json",
+					"name" : "isAnagram",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "isSymmetric::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-isSymmetric-Debug-24cb1081a4d6bcea4658.json",
 					"name" : "isSymmetric",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "letterCombinations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-letterCombinations-Debug-56052d976dcd3bb4638c.json",
+					"name" : "letterCombinations",
 					"projectIndex" : 0
 				},
 				{
@@ -268,6 +297,13 @@
 					"id" : "swapPairs::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-swapPairs-Debug-5f3738210c70a3362802.json",
 					"name" : "swapPairs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "twoSum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-twoSum-Debug-2396a8f62547f4cf5b76.json",
+					"name" : "twoSum",
 					"projectIndex" : 0
 				},
 				{

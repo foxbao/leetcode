@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/trap.dir/数据结构篇/双指针/42.接雨水.cpp.o -o trap 

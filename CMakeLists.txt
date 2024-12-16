@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.2) #最低camke版本需求
 PROJECT(leetcode) #创建工程，example为工程名
-
 SET(CMAKE_BUILD_TYPE Debug) #debug模式
 
 add_executable(remove 数据结构篇/数组/27.移除元素.cpp)
@@ -25,6 +24,8 @@ add_executable(levelOrder 数据结构篇/二叉树/遍历/层序遍历/102.二�
 add_executable(levelOrder_maxdepth 数据结构篇/二叉树/遍历/层序遍历/104.二叉树的最大深度.cpp)
 add_executable(levelOrder_minDepth 数据结构篇/二叉树/遍历/层序遍历/104.二叉树的最小深度.cpp)
 add_executable(hasPathSum 数据结构篇/二叉树/路径/112.路径总和.cpp)
+add_executable(sumOfLeftLeaves 数据结构篇/二叉树/404.左叶子之和.cpp)
+add_executable(findBottomLeftValue 数据结构篇/二叉树/513.找树左下角的值.cpp)
 add_executable(fib 算法思维/动态规划/509.斐波那契数.cpp)
 add_executable(climbStairs 算法思维/动态规划/70.爬楼梯.cpp)
 add_executable(minCostClimbingStairs 算法思维/动态规划/746.使用最小花费爬楼梯.cpp)
@@ -34,6 +35,12 @@ add_executable(letterCombinations 算法篇/回溯/17.电话号码的字母组�
 add_executable(twoSum 数据结构篇/哈希表/1.两数之和.cpp)
 add_executable(isAnagram 数据结构篇/哈希表/242.有效的字母异位词.cpp)
 add_executable(intersection 数据结构篇/哈希表/349.两个数组的交集.cpp)
+add_executable(canConstruct 数据结构篇/哈希表/383.赎金信.cpp)
+add_executable(isHappy 数据结构篇/哈希表/202.快乐数.cpp)
+add_executable(trap 数据结构篇/双指针/42.接雨水.cpp)
+
+
+
 
 
 

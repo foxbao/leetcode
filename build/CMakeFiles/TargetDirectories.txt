@@ -20,6 +20,8 @@
 /home/baojiali/Projects/leetcode/build/CMakeFiles/levelOrder_maxdepth.dir
 /home/baojiali/Projects/leetcode/build/CMakeFiles/levelOrder_minDepth.dir
 /home/baojiali/Projects/leetcode/build/CMakeFiles/hasPathSum.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/sumOfLeftLeaves.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/findBottomLeftValue.dir
 /home/baojiali/Projects/leetcode/build/CMakeFiles/fib.dir
 /home/baojiali/Projects/leetcode/build/CMakeFiles/climbStairs.dir
 /home/baojiali/Projects/leetcode/build/CMakeFiles/minCostClimbingStairs.dir
@@ -29,5 +31,8 @@
 /home/baojiali/Projects/leetcode/build/CMakeFiles/twoSum.dir
 /home/baojiali/Projects/leetcode/build/CMakeFiles/isAnagram.dir
 /home/baojiali/Projects/leetcode/build/CMakeFiles/intersection.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/canConstruct.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/isHappy.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/trap.dir
 /home/baojiali/Projects/leetcode/build/CMakeFiles/edit_cache.dir
 /home/baojiali/Projects/leetcode/build/CMakeFiles/rebuild_cache.dir

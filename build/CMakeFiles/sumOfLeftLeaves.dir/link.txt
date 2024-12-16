@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/sumOfLeftLeaves.dir/数据结构篇/二叉树/404.左叶子之和.cpp.o -o sumOfLeftLeaves 

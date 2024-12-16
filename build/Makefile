@@ -403,6 +403,32 @@ hasPathSum/fast:
 .PHONY : hasPathSum/fast
 
 #=============================================================================
+# Target rules for targets named sumOfLeftLeaves
+
+# Build rule for target.
+sumOfLeftLeaves: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sumOfLeftLeaves
+.PHONY : sumOfLeftLeaves
+
+# fast build rule for target.
+sumOfLeftLeaves/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sumOfLeftLeaves.dir/build.make CMakeFiles/sumOfLeftLeaves.dir/build
+.PHONY : sumOfLeftLeaves/fast
+
+#=============================================================================
+# Target rules for targets named findBottomLeftValue
+
+# Build rule for target.
+findBottomLeftValue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 findBottomLeftValue
+.PHONY : findBottomLeftValue
+
+# fast build rule for target.
+findBottomLeftValue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/findBottomLeftValue.dir/build.make CMakeFiles/findBottomLeftValue.dir/build
+.PHONY : findBottomLeftValue/fast
+
+#=============================================================================
 # Target rules for targets named fib
 
 # Build rule for target.
@@ -518,6 +544,45 @@ intersection: cmake_check_build_system
 intersection/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/intersection.dir/build.make CMakeFiles/intersection.dir/build
 .PHONY : intersection/fast
+
+#=============================================================================
+# Target rules for targets named canConstruct
+
+# Build rule for target.
+canConstruct: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 canConstruct
+.PHONY : canConstruct
+
+# fast build rule for target.
+canConstruct/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/canConstruct.dir/build.make CMakeFiles/canConstruct.dir/build
+.PHONY : canConstruct/fast
+
+#=============================================================================
+# Target rules for targets named isHappy
+
+# Build rule for target.
+isHappy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 isHappy
+.PHONY : isHappy
+
+# fast build rule for target.
+isHappy/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/isHappy.dir/build.make CMakeFiles/isHappy.dir/build
+.PHONY : isHappy/fast
+
+#=============================================================================
+# Target rules for targets named trap
+
+# Build rule for target.
+trap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 trap
+.PHONY : trap
+
+# fast build rule for target.
+trap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trap.dir/build.make CMakeFiles/trap.dir/build
+.PHONY : trap/fast
 
 sort/bubbleSort.o: sort/bubbleSort.cpp.o
 .PHONY : sort/bubbleSort.o
@@ -662,6 +727,54 @@ sort/quicksort.cpp.s:
 图论/695.岛屿的最大面积_DFS.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/max-area-of-island-DFS.dir/build.make CMakeFiles/max-area-of-island-DFS.dir/图论/695.岛屿的最大面积_DFS.cpp.s
 .PHONY : 图论/695.岛屿的最大面积_DFS.cpp.s
+
+数据结构篇/二叉树/404.左叶子之和.o: 数据结构篇/二叉树/404.左叶子之和.cpp.o
+.PHONY : 数据结构篇/二叉树/404.左叶子之和.o
+
+# target to build an object file
+数据结构篇/二叉树/404.左叶子之和.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sumOfLeftLeaves.dir/build.make CMakeFiles/sumOfLeftLeaves.dir/数据结构篇/二叉树/404.左叶子之和.cpp.o
+.PHONY : 数据结构篇/二叉树/404.左叶子之和.cpp.o
+
+数据结构篇/二叉树/404.左叶子之和.i: 数据结构篇/二叉树/404.左叶子之和.cpp.i
+.PHONY : 数据结构篇/二叉树/404.左叶子之和.i
+
+# target to preprocess a source file
+数据结构篇/二叉树/404.左叶子之和.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sumOfLeftLeaves.dir/build.make CMakeFiles/sumOfLeftLeaves.dir/数据结构篇/二叉树/404.左叶子之和.cpp.i
+.PHONY : 数据结构篇/二叉树/404.左叶子之和.cpp.i
+
+数据结构篇/二叉树/404.左叶子之和.s: 数据结构篇/二叉树/404.左叶子之和.cpp.s
+.PHONY : 数据结构篇/二叉树/404.左叶子之和.s
+
+# target to generate assembly for a file
+数据结构篇/二叉树/404.左叶子之和.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sumOfLeftLeaves.dir/build.make CMakeFiles/sumOfLeftLeaves.dir/数据结构篇/二叉树/404.左叶子之和.cpp.s
+.PHONY : 数据结构篇/二叉树/404.左叶子之和.cpp.s
+
+数据结构篇/二叉树/513.找树左下角的值.o: 数据结构篇/二叉树/513.找树左下角的值.cpp.o
+.PHONY : 数据结构篇/二叉树/513.找树左下角的值.o
+
+# target to build an object file
+数据结构篇/二叉树/513.找树左下角的值.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/findBottomLeftValue.dir/build.make CMakeFiles/findBottomLeftValue.dir/数据结构篇/二叉树/513.找树左下角的值.cpp.o
+.PHONY : 数据结构篇/二叉树/513.找树左下角的值.cpp.o
+
+数据结构篇/二叉树/513.找树左下角的值.i: 数据结构篇/二叉树/513.找树左下角的值.cpp.i
+.PHONY : 数据结构篇/二叉树/513.找树左下角的值.i
+
+# target to preprocess a source file
+数据结构篇/二叉树/513.找树左下角的值.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/findBottomLeftValue.dir/build.make CMakeFiles/findBottomLeftValue.dir/数据结构篇/二叉树/513.找树左下角的值.cpp.i
+.PHONY : 数据结构篇/二叉树/513.找树左下角的值.cpp.i
+
+数据结构篇/二叉树/513.找树左下角的值.s: 数据结构篇/二叉树/513.找树左下角的值.cpp.s
+.PHONY : 数据结构篇/二叉树/513.找树左下角的值.s
+
+# target to generate assembly for a file
+数据结构篇/二叉树/513.找树左下角的值.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/findBottomLeftValue.dir/build.make CMakeFiles/findBottomLeftValue.dir/数据结构篇/二叉树/513.找树左下角的值.cpp.s
+.PHONY : 数据结构篇/二叉树/513.找树左下角的值.cpp.s
 
 数据结构篇/二叉树/对称/101.对称二叉树.o: 数据结构篇/二叉树/对称/101.对称二叉树.cpp.o
 .PHONY : 数据结构篇/二叉树/对称/101.对称二叉树.o
@@ -903,6 +1016,30 @@ sort/quicksort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/levelOrder_minDepth.dir/build.make CMakeFiles/levelOrder_minDepth.dir/数据结构篇/二叉树/遍历/层序遍历/104.二叉树的最小深度.cpp.s
 .PHONY : 数据结构篇/二叉树/遍历/层序遍历/104.二叉树的最小深度.cpp.s
 
+数据结构篇/双指针/42.接雨水.o: 数据结构篇/双指针/42.接雨水.cpp.o
+.PHONY : 数据结构篇/双指针/42.接雨水.o
+
+# target to build an object file
+数据结构篇/双指针/42.接雨水.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trap.dir/build.make CMakeFiles/trap.dir/数据结构篇/双指针/42.接雨水.cpp.o
+.PHONY : 数据结构篇/双指针/42.接雨水.cpp.o
+
+数据结构篇/双指针/42.接雨水.i: 数据结构篇/双指针/42.接雨水.cpp.i
+.PHONY : 数据结构篇/双指针/42.接雨水.i
+
+# target to preprocess a source file
+数据结构篇/双指针/42.接雨水.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trap.dir/build.make CMakeFiles/trap.dir/数据结构篇/双指针/42.接雨水.cpp.i
+.PHONY : 数据结构篇/双指针/42.接雨水.cpp.i
+
+数据结构篇/双指针/42.接雨水.s: 数据结构篇/双指针/42.接雨水.cpp.s
+.PHONY : 数据结构篇/双指针/42.接雨水.s
+
+# target to generate assembly for a file
+数据结构篇/双指针/42.接雨水.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trap.dir/build.make CMakeFiles/trap.dir/数据结构篇/双指针/42.接雨水.cpp.s
+.PHONY : 数据结构篇/双指针/42.接雨水.cpp.s
+
 数据结构篇/哈希表/1.两数之和.o: 数据结构篇/哈希表/1.两数之和.cpp.o
 .PHONY : 数据结构篇/哈希表/1.两数之和.o
 
@@ -926,6 +1063,30 @@ sort/quicksort.cpp.s:
 数据结构篇/哈希表/1.两数之和.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/twoSum.dir/build.make CMakeFiles/twoSum.dir/数据结构篇/哈希表/1.两数之和.cpp.s
 .PHONY : 数据结构篇/哈希表/1.两数之和.cpp.s
+
+数据结构篇/哈希表/202.快乐数.o: 数据结构篇/哈希表/202.快乐数.cpp.o
+.PHONY : 数据结构篇/哈希表/202.快乐数.o
+
+# target to build an object file
+数据结构篇/哈希表/202.快乐数.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/isHappy.dir/build.make CMakeFiles/isHappy.dir/数据结构篇/哈希表/202.快乐数.cpp.o
+.PHONY : 数据结构篇/哈希表/202.快乐数.cpp.o
+
+数据结构篇/哈希表/202.快乐数.i: 数据结构篇/哈希表/202.快乐数.cpp.i
+.PHONY : 数据结构篇/哈希表/202.快乐数.i
+
+# target to preprocess a source file
+数据结构篇/哈希表/202.快乐数.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/isHappy.dir/build.make CMakeFiles/isHappy.dir/数据结构篇/哈希表/202.快乐数.cpp.i
+.PHONY : 数据结构篇/哈希表/202.快乐数.cpp.i
+
+数据结构篇/哈希表/202.快乐数.s: 数据结构篇/哈希表/202.快乐数.cpp.s
+.PHONY : 数据结构篇/哈希表/202.快乐数.s
+
+# target to generate assembly for a file
+数据结构篇/哈希表/202.快乐数.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/isHappy.dir/build.make CMakeFiles/isHappy.dir/数据结构篇/哈希表/202.快乐数.cpp.s
+.PHONY : 数据结构篇/哈希表/202.快乐数.cpp.s
 
 数据结构篇/哈希表/242.有效的字母异位词.o: 数据结构篇/哈希表/242.有效的字母异位词.cpp.o
 .PHONY : 数据结构篇/哈希表/242.有效的字母异位词.o
@@ -974,6 +1135,30 @@ sort/quicksort.cpp.s:
 数据结构篇/哈希表/349.两个数组的交集.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/intersection.dir/build.make CMakeFiles/intersection.dir/数据结构篇/哈希表/349.两个数组的交集.cpp.s
 .PHONY : 数据结构篇/哈希表/349.两个数组的交集.cpp.s
+
+数据结构篇/哈希表/383.赎金信.o: 数据结构篇/哈希表/383.赎金信.cpp.o
+.PHONY : 数据结构篇/哈希表/383.赎金信.o
+
+# target to build an object file
+数据结构篇/哈希表/383.赎金信.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/canConstruct.dir/build.make CMakeFiles/canConstruct.dir/数据结构篇/哈希表/383.赎金信.cpp.o
+.PHONY : 数据结构篇/哈希表/383.赎金信.cpp.o
+
+数据结构篇/哈希表/383.赎金信.i: 数据结构篇/哈希表/383.赎金信.cpp.i
+.PHONY : 数据结构篇/哈希表/383.赎金信.i
+
+# target to preprocess a source file
+数据结构篇/哈希表/383.赎金信.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/canConstruct.dir/build.make CMakeFiles/canConstruct.dir/数据结构篇/哈希表/383.赎金信.cpp.i
+.PHONY : 数据结构篇/哈希表/383.赎金信.cpp.i
+
+数据结构篇/哈希表/383.赎金信.s: 数据结构篇/哈希表/383.赎金信.cpp.s
+.PHONY : 数据结构篇/哈希表/383.赎金信.s
+
+# target to generate assembly for a file
+数据结构篇/哈希表/383.赎金信.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/canConstruct.dir/build.make CMakeFiles/canConstruct.dir/数据结构篇/哈希表/383.赎金信.cpp.s
+.PHONY : 数据结构篇/哈希表/383.赎金信.cpp.s
 
 数据结构篇/数组/27.移除元素.o: 数据结构篇/数组/27.移除元素.cpp.o
 .PHONY : 数据结构篇/数组/27.移除元素.o
@@ -1273,13 +1458,16 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... binary"
 	@echo "... bubblesort"
+	@echo "... canConstruct"
 	@echo "... climbStairs"
 	@echo "... combine"
 	@echo "... fib"
+	@echo "... findBottomLeftValue"
 	@echo "... hasPathSum"
 	@echo "... intersection"
 	@echo "... invertTree"
 	@echo "... isAnagram"
+	@echo "... isHappy"
 	@echo "... isSymmetric"
 	@echo "... letterCombinations"
 	@echo "... levelOrder"
@@ -1298,8 +1486,10 @@ help:
 	@echo "... remove"
 	@echo "... removeElements"
 	@echo "... reverseList"
+	@echo "... sumOfLeftLeaves"
 	@echo "... surrounded_region"
 	@echo "... swapPairs"
+	@echo "... trap"
 	@echo "... twoSum"
 	@echo "... uniquePaths"
 	@echo "... sort/bubbleSort.o"
@@ -1320,6 +1510,12 @@ help:
 	@echo "... 图论/695.岛屿的最大面积_DFS.o"
 	@echo "... 图论/695.岛屿的最大面积_DFS.i"
 	@echo "... 图论/695.岛屿的最大面积_DFS.s"
+	@echo "... 数据结构篇/二叉树/404.左叶子之和.o"
+	@echo "... 数据结构篇/二叉树/404.左叶子之和.i"
+	@echo "... 数据结构篇/二叉树/404.左叶子之和.s"
+	@echo "... 数据结构篇/二叉树/513.找树左下角的值.o"
+	@echo "... 数据结构篇/二叉树/513.找树左下角的值.i"
+	@echo "... 数据结构篇/二叉树/513.找树左下角的值.s"
 	@echo "... 数据结构篇/二叉树/对称/101.对称二叉树.o"
 	@echo "... 数据结构篇/二叉树/对称/101.对称二叉树.i"
 	@echo "... 数据结构篇/二叉树/对称/101.对称二叉树.s"
@@ -1350,15 +1546,24 @@ help:
 	@echo "... 数据结构篇/二叉树/遍历/层序遍历/104.二叉树的最小深度.o"
 	@echo "... 数据结构篇/二叉树/遍历/层序遍历/104.二叉树的最小深度.i"
 	@echo "... 数据结构篇/二叉树/遍历/层序遍历/104.二叉树的最小深度.s"
+	@echo "... 数据结构篇/双指针/42.接雨水.o"
+	@echo "... 数据结构篇/双指针/42.接雨水.i"
+	@echo "... 数据结构篇/双指针/42.接雨水.s"
 	@echo "... 数据结构篇/哈希表/1.两数之和.o"
 	@echo "... 数据结构篇/哈希表/1.两数之和.i"
 	@echo "... 数据结构篇/哈希表/1.两数之和.s"
+	@echo "... 数据结构篇/哈希表/202.快乐数.o"
+	@echo "... 数据结构篇/哈希表/202.快乐数.i"
+	@echo "... 数据结构篇/哈希表/202.快乐数.s"
 	@echo "... 数据结构篇/哈希表/242.有效的字母异位词.o"
 	@echo "... 数据结构篇/哈希表/242.有效的字母异位词.i"
 	@echo "... 数据结构篇/哈希表/242.有效的字母异位词.s"
 	@echo "... 数据结构篇/哈希表/349.两个数组的交集.o"
 	@echo "... 数据结构篇/哈希表/349.两个数组的交集.i"
 	@echo "... 数据结构篇/哈希表/349.两个数组的交集.s"
+	@echo "... 数据结构篇/哈希表/383.赎金信.o"
+	@echo "... 数据结构篇/哈希表/383.赎金信.i"
+	@echo "... 数据结构篇/哈希表/383.赎金信.s"
 	@echo "... 数据结构篇/数组/27.移除元素.o"
 	@echo "... 数据结构篇/数组/27.移除元素.i"
 	@echo "... 数据结构篇/数组/27.移除元素.s"

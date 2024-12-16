@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/canConstruct.dir/数据结构篇/哈希表/383.赎金信.cpp.o -o canConstruct 

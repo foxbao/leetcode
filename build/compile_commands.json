@@ -111,6 +111,16 @@
 },
 {
   "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/sumOfLeftLeaves.dir/数据结构篇/二叉树/404.左叶子之和.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/二叉树/404.左叶子之和.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/二叉树/404.左叶子之和.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/findBottomLeftValue.dir/数据结构篇/二叉树/513.找树左下角的值.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/二叉树/513.找树左下角的值.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/二叉树/513.找树左下角的值.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
   "command": "/usr/bin/c++   -g -o CMakeFiles/fib.dir/算法思维/动态规划/509.斐波那契数.cpp.o -c /home/baojiali/Projects/leetcode/算法思维/动态规划/509.斐波那契数.cpp",
   "file": "/home/baojiali/Projects/leetcode/算法思维/动态规划/509.斐波那契数.cpp"
 },
@@ -153,5 +163,20 @@
   "directory": "/home/baojiali/Projects/leetcode/build",
   "command": "/usr/bin/c++   -g -o CMakeFiles/intersection.dir/数据结构篇/哈希表/349.两个数组的交集.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/哈希表/349.两个数组的交集.cpp",
   "file": "/home/baojiali/Projects/leetcode/数据结构篇/哈希表/349.两个数组的交集.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/canConstruct.dir/数据结构篇/哈希表/383.赎金信.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/哈希表/383.赎金信.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/哈希表/383.赎金信.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/isHappy.dir/数据结构篇/哈希表/202.快乐数.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/哈希表/202.快乐数.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/哈希表/202.快乐数.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/trap.dir/数据结构篇/双指针/42.接雨水.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/双指针/42.接雨水.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/双指针/42.接雨水.cpp"
 }
 ]

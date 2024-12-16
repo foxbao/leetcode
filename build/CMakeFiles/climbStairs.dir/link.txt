@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/climbStairs.dir/算法思维/动态规划/70.爬楼梯.cpp.o -o climbStairs 

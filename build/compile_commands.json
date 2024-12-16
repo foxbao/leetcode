@@ -16,8 +16,8 @@
 },
 {
   "directory": "/home/baojiali/Projects/leetcode/build",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/surrounded_region.dir/算法篇/广度优先搜索BFS/695.max-area-of-island.cpp.o -c /home/baojiali/Projects/leetcode/算法篇/广度优先搜索BFS/695.max-area-of-island.cpp",
-  "file": "/home/baojiali/Projects/leetcode/算法篇/广度优先搜索BFS/695.max-area-of-island.cpp"
+  "command": "/usr/bin/c++   -g -o CMakeFiles/surrounded_region.dir/图论/130.被围绕的区域.cpp.o -c /home/baojiali/Projects/leetcode/图论/130.被围绕的区域.cpp",
+  "file": "/home/baojiali/Projects/leetcode/图论/130.被围绕的区域.cpp"
 },
 {
   "directory": "/home/baojiali/Projects/leetcode/build",
@@ -73,5 +73,65 @@
   "directory": "/home/baojiali/Projects/leetcode/build",
   "command": "/usr/bin/c++   -g -o CMakeFiles/bubblesort.dir/sort/bubbleSort.cpp.o -c /home/baojiali/Projects/leetcode/sort/bubbleSort.cpp",
   "file": "/home/baojiali/Projects/leetcode/sort/bubbleSort.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/maxDepth.dir/数据结构篇/二叉树/求深度/104.二叉树的最大深度.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/二叉树/求深度/104.二叉树的最大深度.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/二叉树/求深度/104.二叉树的最大深度.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/minDepth.dir/数据结构篇/二叉树/求深度/111.二叉树的最小深度.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/二叉树/求深度/111.二叉树的最小深度.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/二叉树/求深度/111.二叉树的最小深度.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/lowestCommonAncestor.dir/数据结构篇/二叉树/最近公共祖先/236.二叉树的最近公共祖先.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/二叉树/最近公共祖先/236.二叉树的最近公共祖先.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/二叉树/最近公共祖先/236.二叉树的最近公共祖先.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/levelOrder.dir/数据结构篇/二叉树/遍历/层序遍历/102.二叉树的层序遍历.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/二叉树/遍历/层序遍历/102.二叉树的层序遍历.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/二叉树/遍历/层序遍历/102.二叉树的层序遍历.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/levelOrder_maxdepth.dir/数据结构篇/二叉树/遍历/层序遍历/104.二叉树的最大深度.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/二叉树/遍历/层序遍历/104.二叉树的最大深度.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/二叉树/遍历/层序遍历/104.二叉树的最大深度.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/levelOrder_minDepth.dir/数据结构篇/二叉树/遍历/层序遍历/104.二叉树的最小深度.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/二叉树/遍历/层序遍历/104.二叉树的最小深度.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/二叉树/遍历/层序遍历/104.二叉树的最小深度.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/hasPathSum.dir/数据结构篇/二叉树/路径/112.路径总和.cpp.o -c /home/baojiali/Projects/leetcode/数据结构篇/二叉树/路径/112.路径总和.cpp",
+  "file": "/home/baojiali/Projects/leetcode/数据结构篇/二叉树/路径/112.路径总和.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/fib.dir/算法思维/动态规划/509.斐波那契数.cpp.o -c /home/baojiali/Projects/leetcode/算法思维/动态规划/509.斐波那契数.cpp",
+  "file": "/home/baojiali/Projects/leetcode/算法思维/动态规划/509.斐波那契数.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/climbStairs.dir/算法思维/动态规划/70.爬楼梯.cpp.o -c /home/baojiali/Projects/leetcode/算法思维/动态规划/70.爬楼梯.cpp",
+  "file": "/home/baojiali/Projects/leetcode/算法思维/动态规划/70.爬楼梯.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/minCostClimbingStairs.dir/算法思维/动态规划/746.使用最小花费爬楼梯.cpp.o -c /home/baojiali/Projects/leetcode/算法思维/动态规划/746.使用最小花费爬楼梯.cpp",
+  "file": "/home/baojiali/Projects/leetcode/算法思维/动态规划/746.使用最小花费爬楼梯.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/uniquePaths.dir/算法思维/动态规划/62.不同路径.cpp.o -c /home/baojiali/Projects/leetcode/算法思维/动态规划/62.不同路径.cpp",
+  "file": "/home/baojiali/Projects/leetcode/算法思维/动态规划/62.不同路径.cpp"
+},
+{
+  "directory": "/home/baojiali/Projects/leetcode/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/combine.dir/算法篇/回溯/77.组合.cpp.o -c /home/baojiali/Projects/leetcode/算法篇/回溯/77.组合.cpp",
+  "file": "/home/baojiali/Projects/leetcode/算法篇/回溯/77.组合.cpp"
 }
 ]

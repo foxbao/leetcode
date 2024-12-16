@@ -13,5 +13,17 @@
 /home/baojiali/Projects/leetcode/build/CMakeFiles/swapPairs.dir
 /home/baojiali/Projects/leetcode/build/CMakeFiles/quicksort.dir
 /home/baojiali/Projects/leetcode/build/CMakeFiles/bubblesort.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/maxDepth.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/minDepth.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/lowestCommonAncestor.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/levelOrder.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/levelOrder_maxdepth.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/levelOrder_minDepth.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/hasPathSum.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/fib.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/climbStairs.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/minCostClimbingStairs.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/uniquePaths.dir
+/home/baojiali/Projects/leetcode/build/CMakeFiles/combine.dir
 /home/baojiali/Projects/leetcode/build/CMakeFiles/edit_cache.dir
 /home/baojiali/Projects/leetcode/build/CMakeFiles/rebuild_cache.dir

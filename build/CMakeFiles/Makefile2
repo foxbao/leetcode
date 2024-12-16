@@ -78,6 +78,18 @@ all: CMakeFiles/removeElements.dir/all
 all: CMakeFiles/swapPairs.dir/all
 all: CMakeFiles/quicksort.dir/all
 all: CMakeFiles/bubblesort.dir/all
+all: CMakeFiles/maxDepth.dir/all
+all: CMakeFiles/minDepth.dir/all
+all: CMakeFiles/lowestCommonAncestor.dir/all
+all: CMakeFiles/levelOrder.dir/all
+all: CMakeFiles/levelOrder_maxdepth.dir/all
+all: CMakeFiles/levelOrder_minDepth.dir/all
+all: CMakeFiles/hasPathSum.dir/all
+all: CMakeFiles/fib.dir/all
+all: CMakeFiles/climbStairs.dir/all
+all: CMakeFiles/minCostClimbingStairs.dir/all
+all: CMakeFiles/uniquePaths.dir/all
+all: CMakeFiles/combine.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -100,6 +112,18 @@ clean: CMakeFiles/removeElements.dir/clean
 clean: CMakeFiles/swapPairs.dir/clean
 clean: CMakeFiles/quicksort.dir/clean
 clean: CMakeFiles/bubblesort.dir/clean
+clean: CMakeFiles/maxDepth.dir/clean
+clean: CMakeFiles/minDepth.dir/clean
+clean: CMakeFiles/lowestCommonAncestor.dir/clean
+clean: CMakeFiles/levelOrder.dir/clean
+clean: CMakeFiles/levelOrder_maxdepth.dir/clean
+clean: CMakeFiles/levelOrder_minDepth.dir/clean
+clean: CMakeFiles/hasPathSum.dir/clean
+clean: CMakeFiles/fib.dir/clean
+clean: CMakeFiles/climbStairs.dir/clean
+clean: CMakeFiles/minCostClimbingStairs.dir/clean
+clean: CMakeFiles/uniquePaths.dir/clean
+clean: CMakeFiles/combine.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -109,7 +133,7 @@ clean: CMakeFiles/bubblesort.dir/clean
 CMakeFiles/remove.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/remove.dir/build.make CMakeFiles/remove.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/remove.dir/build.make CMakeFiles/remove.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=21,22 "Built target remove"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=43,44 "Built target remove"
 .PHONY : CMakeFiles/remove.dir/all
 
 # Build rule for subdir invocation for target.
@@ -161,7 +185,7 @@ CMakeFiles/binary.dir/clean:
 CMakeFiles/max-area-of-island.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/max-area-of-island.dir/build.make CMakeFiles/max-area-of-island.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/max-area-of-island.dir/build.make CMakeFiles/max-area-of-island.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=9,10 "Built target max-area-of-island"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=25,26 "Built target max-area-of-island"
 .PHONY : CMakeFiles/max-area-of-island.dir/all
 
 # Build rule for subdir invocation for target.
@@ -187,7 +211,7 @@ CMakeFiles/max-area-of-island.dir/clean:
 CMakeFiles/surrounded_region.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/surrounded_region.dir/build.make CMakeFiles/surrounded_region.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/surrounded_region.dir/build.make CMakeFiles/surrounded_region.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=27,28 "Built target surrounded_region"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=49,50 "Built target surrounded_region"
 .PHONY : CMakeFiles/surrounded_region.dir/all
 
 # Build rule for subdir invocation for target.
@@ -213,7 +237,7 @@ CMakeFiles/surrounded_region.dir/clean:
 CMakeFiles/num-of-island.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/num-of-island.dir/build.make CMakeFiles/num-of-island.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/num-of-island.dir/build.make CMakeFiles/num-of-island.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=13,14 "Built target num-of-island"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=35,36 "Built target num-of-island"
 .PHONY : CMakeFiles/num-of-island.dir/all
 
 # Build rule for subdir invocation for target.
@@ -239,7 +263,7 @@ CMakeFiles/num-of-island.dir/clean:
 CMakeFiles/num-of-island-BFS.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/num-of-island-BFS.dir/build.make CMakeFiles/num-of-island-BFS.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/num-of-island-BFS.dir/build.make CMakeFiles/num-of-island-BFS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=15,16 "Built target num-of-island-BFS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=37,38 "Built target num-of-island-BFS"
 .PHONY : CMakeFiles/num-of-island-BFS.dir/all
 
 # Build rule for subdir invocation for target.
@@ -265,7 +289,7 @@ CMakeFiles/num-of-island-BFS.dir/clean:
 CMakeFiles/max-area-of-island-DFS.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/max-area-of-island-DFS.dir/build.make CMakeFiles/max-area-of-island-DFS.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/max-area-of-island-DFS.dir/build.make CMakeFiles/max-area-of-island-DFS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=11,12 "Built target max-area-of-island-DFS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=27,28 "Built target max-area-of-island-DFS"
 .PHONY : CMakeFiles/max-area-of-island-DFS.dir/all
 
 # Build rule for subdir invocation for target.
@@ -291,7 +315,7 @@ CMakeFiles/max-area-of-island-DFS.dir/clean:
 CMakeFiles/preorder.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/preorder.dir/build.make CMakeFiles/preorder.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/preorder.dir/build.make CMakeFiles/preorder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=17,18 "Built target preorder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=39,40 "Built target preorder"
 .PHONY : CMakeFiles/preorder.dir/all
 
 # Build rule for subdir invocation for target.
@@ -317,7 +341,7 @@ CMakeFiles/preorder.dir/clean:
 CMakeFiles/isSymmetric.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/isSymmetric.dir/build.make CMakeFiles/isSymmetric.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/isSymmetric.dir/build.make CMakeFiles/isSymmetric.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=7,8 "Built target isSymmetric"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=15,16 "Built target isSymmetric"
 .PHONY : CMakeFiles/isSymmetric.dir/all
 
 # Build rule for subdir invocation for target.
@@ -343,7 +367,7 @@ CMakeFiles/isSymmetric.dir/clean:
 CMakeFiles/invertTree.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/invertTree.dir/build.make CMakeFiles/invertTree.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/invertTree.dir/build.make CMakeFiles/invertTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=5,6 "Built target invertTree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=13,14 "Built target invertTree"
 .PHONY : CMakeFiles/invertTree.dir/all
 
 # Build rule for subdir invocation for target.
@@ -369,7 +393,7 @@ CMakeFiles/invertTree.dir/clean:
 CMakeFiles/reverseList.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverseList.dir/build.make CMakeFiles/reverseList.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverseList.dir/build.make CMakeFiles/reverseList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=25,26 "Built target reverseList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=47,48 "Built target reverseList"
 .PHONY : CMakeFiles/reverseList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -395,7 +419,7 @@ CMakeFiles/reverseList.dir/clean:
 CMakeFiles/removeElements.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/removeElements.dir/build.make CMakeFiles/removeElements.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/removeElements.dir/build.make CMakeFiles/removeElements.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=23,24 "Built target removeElements"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=45,46 "Built target removeElements"
 .PHONY : CMakeFiles/removeElements.dir/all
 
 # Build rule for subdir invocation for target.
@@ -421,7 +445,7 @@ CMakeFiles/removeElements.dir/clean:
 CMakeFiles/swapPairs.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/swapPairs.dir/build.make CMakeFiles/swapPairs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/swapPairs.dir/build.make CMakeFiles/swapPairs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=29,30 "Built target swapPairs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=51,52 "Built target swapPairs"
 .PHONY : CMakeFiles/swapPairs.dir/all
 
 # Build rule for subdir invocation for target.
@@ -447,7 +471,7 @@ CMakeFiles/swapPairs.dir/clean:
 CMakeFiles/quicksort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quicksort.dir/build.make CMakeFiles/quicksort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quicksort.dir/build.make CMakeFiles/quicksort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=19,20 "Built target quicksort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=41,42 "Built target quicksort"
 .PHONY : CMakeFiles/quicksort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -491,6 +515,318 @@ bubblesort: CMakeFiles/bubblesort.dir/rule
 CMakeFiles/bubblesort.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubblesort.dir/build.make CMakeFiles/bubblesort.dir/clean
 .PHONY : CMakeFiles/bubblesort.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/maxDepth.dir
+
+# All Build rule for target.
+CMakeFiles/maxDepth.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxDepth.dir/build.make CMakeFiles/maxDepth.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxDepth.dir/build.make CMakeFiles/maxDepth.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=29,30 "Built target maxDepth"
+.PHONY : CMakeFiles/maxDepth.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/maxDepth.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/maxDepth.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 0
+.PHONY : CMakeFiles/maxDepth.dir/rule
+
+# Convenience name for target.
+maxDepth: CMakeFiles/maxDepth.dir/rule
+.PHONY : maxDepth
+
+# clean rule for target.
+CMakeFiles/maxDepth.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxDepth.dir/build.make CMakeFiles/maxDepth.dir/clean
+.PHONY : CMakeFiles/maxDepth.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/minDepth.dir
+
+# All Build rule for target.
+CMakeFiles/minDepth.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minDepth.dir/build.make CMakeFiles/minDepth.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minDepth.dir/build.make CMakeFiles/minDepth.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=33,34 "Built target minDepth"
+.PHONY : CMakeFiles/minDepth.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/minDepth.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/minDepth.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 0
+.PHONY : CMakeFiles/minDepth.dir/rule
+
+# Convenience name for target.
+minDepth: CMakeFiles/minDepth.dir/rule
+.PHONY : minDepth
+
+# clean rule for target.
+CMakeFiles/minDepth.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minDepth.dir/build.make CMakeFiles/minDepth.dir/clean
+.PHONY : CMakeFiles/minDepth.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lowestCommonAncestor.dir
+
+# All Build rule for target.
+CMakeFiles/lowestCommonAncestor.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lowestCommonAncestor.dir/build.make CMakeFiles/lowestCommonAncestor.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lowestCommonAncestor.dir/build.make CMakeFiles/lowestCommonAncestor.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=23,24 "Built target lowestCommonAncestor"
+.PHONY : CMakeFiles/lowestCommonAncestor.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lowestCommonAncestor.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lowestCommonAncestor.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 0
+.PHONY : CMakeFiles/lowestCommonAncestor.dir/rule
+
+# Convenience name for target.
+lowestCommonAncestor: CMakeFiles/lowestCommonAncestor.dir/rule
+.PHONY : lowestCommonAncestor
+
+# clean rule for target.
+CMakeFiles/lowestCommonAncestor.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lowestCommonAncestor.dir/build.make CMakeFiles/lowestCommonAncestor.dir/clean
+.PHONY : CMakeFiles/lowestCommonAncestor.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/levelOrder.dir
+
+# All Build rule for target.
+CMakeFiles/levelOrder.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/levelOrder.dir/build.make CMakeFiles/levelOrder.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/levelOrder.dir/build.make CMakeFiles/levelOrder.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=17,18 "Built target levelOrder"
+.PHONY : CMakeFiles/levelOrder.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/levelOrder.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/levelOrder.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 0
+.PHONY : CMakeFiles/levelOrder.dir/rule
+
+# Convenience name for target.
+levelOrder: CMakeFiles/levelOrder.dir/rule
+.PHONY : levelOrder
+
+# clean rule for target.
+CMakeFiles/levelOrder.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/levelOrder.dir/build.make CMakeFiles/levelOrder.dir/clean
+.PHONY : CMakeFiles/levelOrder.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/levelOrder_maxdepth.dir
+
+# All Build rule for target.
+CMakeFiles/levelOrder_maxdepth.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/levelOrder_maxdepth.dir/build.make CMakeFiles/levelOrder_maxdepth.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/levelOrder_maxdepth.dir/build.make CMakeFiles/levelOrder_maxdepth.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=19,20 "Built target levelOrder_maxdepth"
+.PHONY : CMakeFiles/levelOrder_maxdepth.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/levelOrder_maxdepth.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/levelOrder_maxdepth.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 0
+.PHONY : CMakeFiles/levelOrder_maxdepth.dir/rule
+
+# Convenience name for target.
+levelOrder_maxdepth: CMakeFiles/levelOrder_maxdepth.dir/rule
+.PHONY : levelOrder_maxdepth
+
+# clean rule for target.
+CMakeFiles/levelOrder_maxdepth.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/levelOrder_maxdepth.dir/build.make CMakeFiles/levelOrder_maxdepth.dir/clean
+.PHONY : CMakeFiles/levelOrder_maxdepth.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/levelOrder_minDepth.dir
+
+# All Build rule for target.
+CMakeFiles/levelOrder_minDepth.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/levelOrder_minDepth.dir/build.make CMakeFiles/levelOrder_minDepth.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/levelOrder_minDepth.dir/build.make CMakeFiles/levelOrder_minDepth.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=21,22 "Built target levelOrder_minDepth"
+.PHONY : CMakeFiles/levelOrder_minDepth.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/levelOrder_minDepth.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/levelOrder_minDepth.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 0
+.PHONY : CMakeFiles/levelOrder_minDepth.dir/rule
+
+# Convenience name for target.
+levelOrder_minDepth: CMakeFiles/levelOrder_minDepth.dir/rule
+.PHONY : levelOrder_minDepth
+
+# clean rule for target.
+CMakeFiles/levelOrder_minDepth.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/levelOrder_minDepth.dir/build.make CMakeFiles/levelOrder_minDepth.dir/clean
+.PHONY : CMakeFiles/levelOrder_minDepth.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hasPathSum.dir
+
+# All Build rule for target.
+CMakeFiles/hasPathSum.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hasPathSum.dir/build.make CMakeFiles/hasPathSum.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hasPathSum.dir/build.make CMakeFiles/hasPathSum.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=11,12 "Built target hasPathSum"
+.PHONY : CMakeFiles/hasPathSum.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hasPathSum.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hasPathSum.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 0
+.PHONY : CMakeFiles/hasPathSum.dir/rule
+
+# Convenience name for target.
+hasPathSum: CMakeFiles/hasPathSum.dir/rule
+.PHONY : hasPathSum
+
+# clean rule for target.
+CMakeFiles/hasPathSum.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hasPathSum.dir/build.make CMakeFiles/hasPathSum.dir/clean
+.PHONY : CMakeFiles/hasPathSum.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/fib.dir
+
+# All Build rule for target.
+CMakeFiles/fib.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fib.dir/build.make CMakeFiles/fib.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fib.dir/build.make CMakeFiles/fib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=9,10 "Built target fib"
+.PHONY : CMakeFiles/fib.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/fib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 0
+.PHONY : CMakeFiles/fib.dir/rule
+
+# Convenience name for target.
+fib: CMakeFiles/fib.dir/rule
+.PHONY : fib
+
+# clean rule for target.
+CMakeFiles/fib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fib.dir/build.make CMakeFiles/fib.dir/clean
+.PHONY : CMakeFiles/fib.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/climbStairs.dir
+
+# All Build rule for target.
+CMakeFiles/climbStairs.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/climbStairs.dir/build.make CMakeFiles/climbStairs.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/climbStairs.dir/build.make CMakeFiles/climbStairs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=5,6 "Built target climbStairs"
+.PHONY : CMakeFiles/climbStairs.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/climbStairs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/climbStairs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 0
+.PHONY : CMakeFiles/climbStairs.dir/rule
+
+# Convenience name for target.
+climbStairs: CMakeFiles/climbStairs.dir/rule
+.PHONY : climbStairs
+
+# clean rule for target.
+CMakeFiles/climbStairs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/climbStairs.dir/build.make CMakeFiles/climbStairs.dir/clean
+.PHONY : CMakeFiles/climbStairs.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/minCostClimbingStairs.dir
+
+# All Build rule for target.
+CMakeFiles/minCostClimbingStairs.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minCostClimbingStairs.dir/build.make CMakeFiles/minCostClimbingStairs.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minCostClimbingStairs.dir/build.make CMakeFiles/minCostClimbingStairs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=31,32 "Built target minCostClimbingStairs"
+.PHONY : CMakeFiles/minCostClimbingStairs.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/minCostClimbingStairs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/minCostClimbingStairs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 0
+.PHONY : CMakeFiles/minCostClimbingStairs.dir/rule
+
+# Convenience name for target.
+minCostClimbingStairs: CMakeFiles/minCostClimbingStairs.dir/rule
+.PHONY : minCostClimbingStairs
+
+# clean rule for target.
+CMakeFiles/minCostClimbingStairs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minCostClimbingStairs.dir/build.make CMakeFiles/minCostClimbingStairs.dir/clean
+.PHONY : CMakeFiles/minCostClimbingStairs.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/uniquePaths.dir
+
+# All Build rule for target.
+CMakeFiles/uniquePaths.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uniquePaths.dir/build.make CMakeFiles/uniquePaths.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uniquePaths.dir/build.make CMakeFiles/uniquePaths.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=53,54 "Built target uniquePaths"
+.PHONY : CMakeFiles/uniquePaths.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/uniquePaths.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uniquePaths.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 0
+.PHONY : CMakeFiles/uniquePaths.dir/rule
+
+# Convenience name for target.
+uniquePaths: CMakeFiles/uniquePaths.dir/rule
+.PHONY : uniquePaths
+
+# clean rule for target.
+CMakeFiles/uniquePaths.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uniquePaths.dir/build.make CMakeFiles/uniquePaths.dir/clean
+.PHONY : CMakeFiles/uniquePaths.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/combine.dir
+
+# All Build rule for target.
+CMakeFiles/combine.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/combine.dir/build.make CMakeFiles/combine.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/combine.dir/build.make CMakeFiles/combine.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/baojiali/Projects/leetcode/build/CMakeFiles --progress-num=7,8 "Built target combine"
+.PHONY : CMakeFiles/combine.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/combine.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/combine.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baojiali/Projects/leetcode/build/CMakeFiles 0
+.PHONY : CMakeFiles/combine.dir/rule
+
+# Convenience name for target.
+combine: CMakeFiles/combine.dir/rule
+.PHONY : combine
+
+# clean rule for target.
+CMakeFiles/combine.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/combine.dir/build.make CMakeFiles/combine.dir/clean
+.PHONY : CMakeFiles/combine.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

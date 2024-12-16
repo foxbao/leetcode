@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/baojiali/Projects/leetcode/算法篇/广度优先搜索BFS/695.max-area-of-island.cpp" "CMakeFiles/surrounded_region.dir/算法篇/广度优先搜索BFS/695.max-area-of-island.cpp.o" "gcc" "CMakeFiles/surrounded_region.dir/算法篇/广度优先搜索BFS/695.max-area-of-island.cpp.o.d"
+  "/home/baojiali/Projects/leetcode/图论/130.被围绕的区域.cpp" "CMakeFiles/surrounded_region.dir/图论/130.被围绕的区域.cpp.o" "gcc" "CMakeFiles/surrounded_region.dir/图论/130.被围绕的区域.cpp.o.d"
   )
 
 # Targets to which this target links.

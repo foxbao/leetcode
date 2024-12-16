@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "surrounded_region"
+			"path" : "hasPathSum"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 9,
+				"line" : 27,
 				"parent" : 0
 			}
 		]
@@ -45,7 +45,7 @@
 			]
 		}
 	],
-	"id" : "surrounded_region::@6890427a1f51a3e7e1df",
+	"id" : "hasPathSum::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -61,8 +61,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "surrounded_region",
-	"nameOnDisk" : "surrounded_region",
+	"name" : "hasPathSum",
+	"nameOnDisk" : "hasPathSum",
 	"paths" : 
 	{
 		"build" : ".",
@@ -83,7 +83,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "\u7b97\u6cd5\u7bc7/\u5e7f\u5ea6\u4f18\u5148\u641c\u7d22BFS/695.max-area-of-island.cpp",
+			"path" : "\u6570\u636e\u7ed3\u6784\u7bc7/\u4e8c\u53c9\u6811/\u8def\u5f84/112.\u8def\u5f84\u603b\u548c.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

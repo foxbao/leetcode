@@ -1,66 +1,82 @@
 #include <vector>
 #include <queue>
+#include <iostream>
 using namespace std;
+
+
+void printBoard(const vector<vector<char>>& board) {
+    for (const auto& row : board) {
+        for (const auto& cell : row) {
+            cout << cell << " ";
+        }
+        cout << endl;
+    }
+}
 class Solution
 {
 public:
-    int numIsLands(vector<vector<char>> &grid){
-        int m=grid.size();
-        int n=grid[0].size();
-        int result = 0;
-        vector<vector<bool>> visited(m,vector<bool>(n,false));
-        for(int i=0;i<m;i++)
-        {
-            for(int j=0;j<n;j++)
-            {
-                if(!visited[i][j]&&grid[i][j]=='1')
-                {
-                    result++;
-                    bfs(grid,visited,i,j);
-                }
+    void  solve(vector<vector<char>> &board)
+    {
+        int n = board.size(), m = board[0].size(); 
+        // 步骤一：
+        // 从左侧边，和右侧边 向中间遍历
+        for (int i = 0; i < n; i++) {
+            if (board[i][0] == 'O') dfs(board, i, 0);
+            if (board[i][m - 1] == 'O') dfs(board, i, m - 1);
+        }
+
+        // 从上边和下边 向中间遍历
+        for (int j = 0; j < m; j++) {
+            if (board[0][j] == 'O') dfs(board, 0, j);
+            if (board[n - 1][j] == 'O') dfs(board, n - 1, j);
+        }
+
+        // 步骤二：
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (board[i][j] == 'O') board[i][j] = 'X';
+                if (board[i][j] == 'A') board[i][j] = 'O';
             }
         }
-        return result;
+
     }
 
 private:
-    int dirs[4][2]={{-1,0},{1,0},{0,-1},{0,1}};
-    void bfs(vector<vector<char>> &grid,vector<vector<bool>>&visited,int row,int col)
+    int dirs[4][2] = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+    void dfs(vector<vector<char>> &board, int row, int col)
     {
-        queue<pair<int,int>> q;
-        q.push({row,col});
-        visited[row][col]=true;
-        while (!q.empty())
+        board[row][col]='A';
+        for(auto dir:dirs)
         {
-            pair<int, int> cur = q.front();
-            q.pop();
-            int curRow = cur.first;
-            int curCol = cur.second;
-            for (auto dir : dirs)
+            int nextRow=row+dir[0];
+            int nextCol=col+dir[1];
+            if(nextRow<0||nextRow>=board.size()||nextCol<0||nextCol>=board[0].size())
             {
-                int nextRow = curRow + dir[0];
-                int nextCol = curCol + dir[1];
-                if (nextRow < 0 || nextRow >= grid.size() || nextCol < 0 || nextCol > grid[0].size())
-                {
-                    continue;
-                }
-                if (!visited[nextRow][nextCol] && grid[nextRow][nextCol] == '1')
-                {
-                    q.push({nextRow, nextCol});
-                    visited[nextRow][nextCol] = true;
-                }
+                continue;
             }
+            if(board[nextRow][nextCol]=='X'||board[nextRow][nextCol]=='A')
+            {
+                continue;
+            }
+            dfs(board,nextRow,nextCol);
         }
+        return;
+
     }
 };
 
 int main()
 {
     Solution solution;
-    std::vector<std::vector<char>> grid={{'1','1','1','1','0'},
-    {'1','1','0','1','0'},
-    {'1','1','0','0','0'},
-    {'0','0','0','0','0'}};
-    int result=solution.numIsLands(grid);
+    vector<vector<char>> board = {
+        {'X', 'X', 'X', 'X'},
+        {'X', 'O', 'O', 'X'},
+        {'X', 'X', 'O', 'X'},
+        {'X', 'O', 'X', 'X'}};
+    printBoard(board);
+    std::cout<<std::endl;
+    
+    solution.solve(board);
+    printBoard(board);
     return -1;
 }

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/surrounded_region.dir/算法篇/广度优先搜索BFS/695.max-area-of-island.cpp.o"
-  "CMakeFiles/surrounded_region.dir/算法篇/广度优先搜索BFS/695.max-area-of-island.cpp.o.d"
+  "CMakeFiles/surrounded_region.dir/图论/130.被围绕的区域.cpp.o"
+  "CMakeFiles/surrounded_region.dir/图论/130.被围绕的区域.cpp.o.d"
   "surrounded_region"
   "surrounded_region.pdb"
 )

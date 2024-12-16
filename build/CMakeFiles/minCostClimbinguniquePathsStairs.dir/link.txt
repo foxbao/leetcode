@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/minCostClimbinguniquePathsStairs.dir/算法思维/动态规划/746.使用最小花费爬楼梯.cpp.o -o minCostClimbinguniquePathsStairs 

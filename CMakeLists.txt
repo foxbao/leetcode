@@ -18,4 +18,18 @@ add_executable(removeElements 数据结构篇/链表/203.移除链表元素.cpp)
 add_executable(swapPairs 数据结构篇/链表/24.两两交换链表中的节点.cpp)
 add_executable(quicksort sort/quicksort.cpp)
 add_executable(bubblesort sort/bubbleSort.cpp)
+add_executable(maxDepth 数据结构篇/二叉树/求深度/104.二叉树的最大深度.cpp)
+add_executable(minDepth 数据结构篇/二叉树/求深度/111.二叉树的最小深度.cpp)
+add_executable(lowestCommonAncestor 数据结构篇/二叉树/最近公共祖先/236.二叉树的最近公共祖先.cpp)
+add_executable(levelOrder 数据结构篇/二叉树/遍历/层序遍历/102.二叉树的层序遍历.cpp)
+add_executable(levelOrder_maxdepth 数据结构篇/二叉树/遍历/层序遍历/104.二叉树的最大深度.cpp)
+add_executable(levelOrder_minDepth 数据结构篇/二叉树/遍历/层序遍历/104.二叉树的最小深度.cpp)
+add_executable(hasPathSum 数据结构篇/二叉树/路径/112.路径总和.cpp)
+add_executable(fib 算法思维/动态规划/509.斐波那契数.cpp)
+add_executable(climbStairs 算法思维/动态规划/70.爬楼梯.cpp)
+add_executable(minCostClimbingStairs 算法思维/动态规划/746.使用最小花费爬楼梯.cpp)
+add_executable(uniquePaths 算法思维/动态规划/62.不同路径.cpp)
+add_executable(combine 算法篇/回溯/77.组合.cpp)
+
+
 

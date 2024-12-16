@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -rdynamic CMakeFiles/surrounded_region.dir/算法篇/广度优先搜索BFS/695.max-area-of-island.cpp.o -o surrounded_region 
+/usr/bin/c++ -g -rdynamic CMakeFiles/surrounded_region.dir/图论/130.被围绕的区域.cpp.o -o surrounded_region 
